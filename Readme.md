@@ -12,7 +12,7 @@
 
 ## 🚀 Sobre mí
 
-Soy estudiante de desarrollo de aplicaciones en el **IES Luis Vives**, apasionado por crear soluciones tecnológicas y aprender constantemente. Me encanta explorar diferentes tecnologías y lenguajes de programación.
+Soy un estudiante de desarrollo de aplicaciones web en el **IES Luis Vives**, apasionado por crear soluciones tecnológicas y aprender constantemente. Me encanta explorar diferentes tecnologías y lenguajes de programación.
 
 ---
 
@@ -24,13 +24,24 @@ Soy estudiante de desarrollo de aplicaciones en el **IES Luis Vives**, apasionad
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Backend & Móvil
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitKraken](https://img.shields.io/badge/GitKraken-1793FF?style=for-the-badge&logo=gitkraken&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### Base de Datos
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
 </div>
 
@@ -43,16 +54,22 @@ Soy estudiante de desarrollo de aplicaciones en el **IES Luis Vives**, apasionad
   ![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=Aragorn7372&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
   
   ![Racha de Commits](https://github-readme-streak-stats.herokuapp.com/?user=Aragorn7372&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF)
+  
 
+</div>
+<div align="center">
+  <a href="https://github.com/Aragorn7372">
+    <img src="https://github.com/users/Aragorn7372/contributions" alt="Mapa de contribuciones de Aragorn7372" />
+  </a>
 </div>
 
 ---
 
 ## 🌱 Actualmente aprendiendo
 
-- 📱 Desarrollo de aplicaciones móviles con Kotlin
-- 🎨 Diseño web responsivo y frameworks modernos
-- 🗄️ Gestión avanzada de bases de datos
+- 📱 Desarrollo de backend con Kotlin, Java y Spring Boot.
+- 🎨 Diseño web responsivo y frameworks modernos.
+- 🗄️ Gestión avanzada de bases de datos.
 
 ---
 
