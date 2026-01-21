@@ -1,0 +1,35 @@
+name: Keep GitHub Stats Images Alive
+
+on:
+  schedule:
+    # Se ejecuta cada 6 horas
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub Actions
+
+jobs:
+  ping-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Ping stats URLs
+        run: python scripts/ping-stats.py
+        env:
+          GITHUB_USERNAME:  Aragorn7372
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "⚠️ Algunas URLs de estadísticas están caídas"
+          echo "Revisa los logs para más detalles"
