@@ -99,7 +99,7 @@ Soy un estudiante de desarrollo de aplicaciones web en el **IES Luis Vives**, ap
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aragorn7372)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/víctor-marín-escribano-44b2b639b)
 💡 *"El código es poesía, y cada proyecto es una nueva historia"*
 
 </div>
