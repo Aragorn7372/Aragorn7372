@@ -100,6 +100,8 @@ Soy un estudiante de desarrollo de aplicaciones web en el **IES Luis Vives**, ap
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aragorn7372)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/víctor-marín-escribano-44b2b639b/)
+[![Portafolio GitHub Pages](https://img.shields.io/badge/GitHub_Pages-FF4080?style=for-the-badge&logo=github&logoColor=white)](https://aragorn7372.github.io)
+[![Portafolio Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://aragorn7372.netlify.app)
 
 💡 *"El código es poesía, y cada proyecto es una nueva historia"*
 
