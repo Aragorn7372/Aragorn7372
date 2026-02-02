@@ -3,7 +3,7 @@ name: Keep GitHub Stats Images Alive
 on:
   schedule:
     # Se ejecuta cada 6 horas
-    - cron: '0 */6 * * *'
+    - cron: '0 */8 * * *'
   workflow_dispatch:  # Permite ejecutarlo manualmente desde GitHub Actions
 
 jobs:
