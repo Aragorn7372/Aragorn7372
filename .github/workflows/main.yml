@@ -1,4 +1,4 @@
-name: Descargar Estadísticas de GitHub
+name: Actualizar Estadísticas (Noche)
 
 on:
   schedule:
@@ -19,33 +19,37 @@ jobs:
       - name: Crear carpeta para las imágenes
         run: mkdir -p stats-images
 
-      - name: Descargar imágenes con estilos coherentes
+      - name: Descargar imágenes de forma segura
         run: |
-          # --- VARIABLES DE ESTILO COHERENTES ---
-          # Extraídas directamente de tu Readme.md para mantener tu diseño exacto
+          # Variables de diseño
           BG_COLOR="0D1117"
           TITLE_COLOR="58A6FF"
           TEXT_COLOR="C9D1D9"
           ICON_COLOR="58A6FF"
           THEME="tokyonight"
           
-          # 1. Estadísticas Generales
-          curl -o stats-images/general-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=${THEME}&hide_border=true&bg_color=${BG_COLOR}&title_color=${TITLE_COLOR}&icon_color=${ICON_COLOR}&text_color=${TEXT_COLOR}"
+          echo "Descargando Estadísticas Generales..."
+          curl -L --fail -o stats-images/general-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=${THEME}&hide_border=true&bg_color=${BG_COLOR}&title_color=${TITLE_COLOR}&icon_color=${ICON_COLOR}&text_color=${TEXT_COLOR}" || echo "La API falló, se mantiene la imagen anterior."
           
-          # 2. Lenguajes más usados
-          curl -o stats-images/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=${THEME}&hide_border=true&bg_color=${BG_COLOR}&title_color=${TITLE_COLOR}&text_color=${TEXT_COLOR}"
+          # Pausa de 3 segundos para evitar ser bloqueados por la API (Rate Limit)
+          sleep 3
           
-          # 3. Racha de Commits (Streak)
-          # Utiliza las mismas variables adaptadas a los nombres de parámetro de esta API
-          curl -o stats-images/streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=${THEME}&hide_border=true&background=${BG_COLOR}&stroke=${TITLE_COLOR}&ring=${TITLE_COLOR}&fire=FF6B6B&currStreakLabel=${TITLE_COLOR}&sideNums=${TEXT_COLOR}&sideLabels=${TEXT_COLOR}&dates=${TEXT_COLOR}"
+          echo "Descargando Lenguajes más usados..."
+          curl -L --fail -o stats-images/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=${THEME}&hide_border=true&bg_color=${BG_COLOR}&title_color=${TITLE_COLOR}&text_color=${TEXT_COLOR}" || echo "La API falló, se mantiene la imagen anterior."
           
-          # 4. Gráfico de Actividad
-          # Nota: Esta API usa 'tokyo-night' con guion, pero mapeamos tus mismos colores
-          curl -o stats-images/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&bg_color=${BG_COLOR}&color=${TITLE_COLOR}&line=${TITLE_COLOR}&point=FFFFFF"
+          sleep 3
+          
+          echo "Descargando Racha de Commits..."
+          curl -L --fail -o stats-images/streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=${THEME}&hide_border=true&background=${BG_COLOR}&stroke=${TITLE_COLOR}&ring=${TITLE_COLOR}&fire=FF6B6B&currStreakLabel=${TITLE_COLOR}&sideNums=${TEXT_COLOR}&sideLabels=${TEXT_COLOR}&dates=${TEXT_COLOR}" || echo "La API falló, se mantiene la imagen anterior."
+          
+          sleep 3
+          
+          echo "Descargando Gráfico de Actividad..."
+          curl -L --fail -o stats-images/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&bg_color=${BG_COLOR}&color=${TITLE_COLOR}&line=${TITLE_COLOR}&point=FFFFFF" || echo "La API falló, se mantiene la imagen anterior."
 
       - name: Guardar imágenes en el repositorio
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Actualizar imágenes de estadísticas diarias"
+          commit_message: "Actualizar imágenes de estadísticas (Ejecución nocturna)"
           file_pattern: "stats-images/*.svg"
           branch: master
