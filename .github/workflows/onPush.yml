@@ -1,9 +1,9 @@
-name: Descargar Estadísticas de GitHub
+name: Actualizar Estadísticas en Push
 
 on:
-  schedule:
-    # Se ejecuta todos los días a las 12 de la noche (00:00 UTC)
-    - cron: "0 0 * * *"
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
@@ -36,16 +36,14 @@ jobs:
           curl -o stats-images/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=${THEME}&hide_border=true&bg_color=${BG_COLOR}&title_color=${TITLE_COLOR}&text_color=${TEXT_COLOR}"
           
           # 3. Racha de Commits (Streak)
-          # Utiliza las mismas variables adaptadas a los nombres de parámetro de esta API
           curl -o stats-images/streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=${THEME}&hide_border=true&background=${BG_COLOR}&stroke=${TITLE_COLOR}&ring=${TITLE_COLOR}&fire=FF6B6B&currStreakLabel=${TITLE_COLOR}&sideNums=${TEXT_COLOR}&sideLabels=${TEXT_COLOR}&dates=${TEXT_COLOR}"
           
           # 4. Gráfico de Actividad
-          # Nota: Esta API usa 'tokyo-night' con guion, pero mapeamos tus mismos colores
           curl -o stats-images/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&bg_color=${BG_COLOR}&color=${TITLE_COLOR}&line=${TITLE_COLOR}&point=FFFFFF"
 
       - name: Guardar imágenes en el repositorio
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Actualizar imágenes de estadísticas diarias"
+          commit_message: "Actualizar imágenes de estadísticas por push"
           file_pattern: "stats-images/*.svg"
           branch: master

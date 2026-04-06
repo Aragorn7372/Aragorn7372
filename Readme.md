@@ -71,17 +71,17 @@ Soy un estudiante de desarrollo de aplicaciones web en el **IES Luis Vives**, ap
 
 <div align="center">
   
-  ![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=Aragorn7372&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
+  ![Estadísticas de GitHub](./stats-images/general-stats.svg)
   
-  ![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=Aragorn7372&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
+  ![Lenguajes más usados](./stats-images/top-langs.svg)
   
-  ![Racha de Commits](https://github-readme-streak-stats.herokuapp.com/?user=Aragorn7372&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF)
+  ![Racha de Commits](./stats-images/streak-stats.svg)
   
 </div>
 
 <div align="center">
   
-![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=Aragorn7372&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF)
+![Gráfico de actividad](./stats-images/activity-graph.svg)
 
 </div>
 
