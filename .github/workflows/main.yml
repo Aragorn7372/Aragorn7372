@@ -3,7 +3,7 @@ name: Actualizar Estadísticas (Noche)
 on:
   schedule:
     # Se ejecuta todos los días a las 12 de la noche (00:00 UTC)
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
