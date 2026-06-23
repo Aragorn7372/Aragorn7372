@@ -2,7 +2,7 @@
   
 # 👋 ¡Hola!  Soy Aragorn7372
 
-### 🎓 Estudiante en IES Luis Vives
+### Desarrollador Full Stack
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Desarrollador+en+formación;Apasionado+por+la+tecnología;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG" />
 
@@ -12,7 +12,7 @@
 
 ## 🚀 Sobre mí
 
-Soy un estudiante de desarrollo de aplicaciones web en el **IES Luis Vives**, apasionado por crear soluciones tecnológicas y aprender constantemente.  Me encanta explorar diferentes tecnologías y lenguajes de programación.
+Soy desarrollador Full Stack titulado en Desarrollo de Aplicaciones Web por el IES Luis Vives. Me apasiona crear soluciones tecnológicas eficientes y escalables. Destaco por mi capacidad de aprendizaje constante y mi interés en explorar nuevas tecnologías y lenguajes de programación.
 
 ---
 
