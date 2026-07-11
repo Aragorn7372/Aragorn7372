@@ -12,7 +12,7 @@
 
 ## 🚀 Sobre mí
 
-Soy desarrollador Full Stack titulado en Desarrollo de Aplicaciones Web por el IES Luis Vives. Me apasiona crear soluciones tecnológicas eficientes y escalables. Destaco por mi capacidad de aprendizaje constante y mi interés en explorar nuevas tecnologías y lenguajes de programación.
+Soy un desarrollador Full Stack titulado en Desarrollo de Aplicaciones Web por el IES Luis Vives. Me apasiona crear soluciones tecnológicas eficientes y escalables. Destaco por mi capacidad de aprendizaje constante y mi interés en explorar nuevas tecnologías y lenguajes de programación.
 
 ---
 
