@@ -1,9 +1,9 @@
 <svg width="300" height="165" viewBox="0 0 300 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleId">
   <title id="titleId">Most Used Languages</title>
   <style>
-    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; animation: fadeInAnimation 0.8s ease-in-out forwards; }
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0969DA; animation: fadeInAnimation 0.8s ease-in-out forwards; }
     @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
-    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1F2328; }
     .stagger { opacity: 0; animation: fadeInAnimation 0.3s ease-in-out forwards; }
     #rect-mask rect { animation: slideInAnimation 1s ease-in-out forwards; }
     @keyframes slideInAnimation { from { width: 0; } to { width: 250px; } }
@@ -17,7 +17,7 @@
       to { opacity: 1; }
     }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" height="99%" width="299" fill="#0D1117" stroke-opacity="0"/>
+  <rect x="0.5" y="0.5" rx="4.5" height="99%" width="299" fill="#FFFFFF" stroke-opacity="0"/>
   <g transform="translate(25, 35)"><text x="0" y="0" class="header">Most Used Languages</text></g>
   <g transform="translate(0, 55)">
     <svg x="25">

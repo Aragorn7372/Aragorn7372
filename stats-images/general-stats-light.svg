@@ -2,17 +2,17 @@
   <title id="titleId">Víctor Marín Escribano's GitHub Stats, Rank: B</title>
   <desc id="descId">Total Stars Earned: 3, Total Commits (last year): 874, Total PRs: 114, Total Issues: 0, Contributed to (last year): 3</desc>
   <style>
-    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; animation: fadeInAnimation 0.8s ease-in-out forwards; }
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0969DA; animation: fadeInAnimation 0.8s ease-in-out forwards; }
     @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
-    .stat { font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C9D1D9; }
+    .stat { font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #1F2328; }
     @supports(-moz-appearance: auto) { .stat { font-size: 12px; } }
     .stagger { opacity: 0; animation: fadeInAnimation 0.3s ease-in-out forwards; }
-    .rank-text { font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; animation: scaleInAnimation 0.3s ease-in-out forwards; }
+    .rank-text { font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1F2328; animation: scaleInAnimation 0.3s ease-in-out forwards; }
     .bold { font-weight: 700 }
-    .icon { fill: #58A6FF; display: block; }
-    .rank-circle-rim { stroke: #58A6FF; fill: none; stroke-width: 6; opacity: 0.2; }
+    .icon { fill: #0969DA; display: block; }
+    .rank-circle-rim { stroke: #0969DA; fill: none; stroke-width: 6; opacity: 0.2; }
     .rank-circle {
-      stroke: #58A6FF; stroke-dasharray: 250; fill: none; stroke-width: 6; stroke-linecap: round; opacity: 0.8;
+      stroke: #0969DA; stroke-dasharray: 250; fill: none; stroke-width: 6; stroke-linecap: round; opacity: 0.8;
       transform-origin: -10px 8px; transform: rotate(-90deg); animation: rankAnimation 1s forwards ease-in-out;
     }
     @keyframes rankAnimation {
@@ -29,7 +29,7 @@
       to { opacity: 1; }
     }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" height="99%" width="466" fill="#0D1117" stroke-opacity="0"/>
+  <rect x="0.5" y="0.5" rx="4.5" height="99%" width="466" fill="#FFFFFF" stroke-opacity="0"/>
   <g transform="translate(25, 35)"><text x="0" y="0" class="header">Víctor Marín Escribano's GitHub Stats</text></g>
   <g transform="translate(0, 55)">
     <g transform="translate(390.5, 47.5)">
