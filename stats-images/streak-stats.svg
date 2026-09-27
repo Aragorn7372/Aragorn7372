@@ -23,7 +23,7 @@
     <line x1="330" y1="28" x2="330" y2="170" stroke-width="1" stroke="#58A6FF"/>
     <g>
       <g transform="translate(82.5, 48)">
-        <text x="0" y="32" text-anchor="middle" fill="#C9D1D9" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px" style="opacity: 0; animation: fadein 0.5s linear forwards 0.6s">1,229</text>
+        <text x="0" y="32" text-anchor="middle" fill="#C9D1D9" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px" style="opacity: 0; animation: fadein 0.5s linear forwards 0.6s">1,237</text>
       </g>
       <g transform="translate(82.5, 84)">
         <text x="0" y="32" text-anchor="middle" fill="#C9D1D9" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="400" font-size="14px" style="opacity: 0; animation: fadein 0.5s linear forwards 0.7s">Total Contributions</text>
