@@ -22,8 +22,8 @@
   <g transform="translate(0, 55)">
     <svg x="25">
       <mask id="rect-mask"><rect x="0" y="0" width="250" height="8" fill="white" rx="5"/></mask>
-      <rect mask="url(#rect-mask)" x="0.00" y="0" width="105.34" height="8" fill="#7355dd"/>
-      <rect mask="url(#rect-mask)" x="105.34" y="0" width="52.69" height="8" fill="#e34c26"/>
+      <rect mask="url(#rect-mask)" x="0.00" y="0" width="105.33" height="8" fill="#7355dd"/>
+      <rect mask="url(#rect-mask)" x="105.33" y="0" width="52.70" height="8" fill="#e34c26"/>
       <rect mask="url(#rect-mask)" x="158.03" y="0" width="41.34" height="8" fill="#b07219"/>
       <rect mask="url(#rect-mask)" x="199.37" y="0" width="38.12" height="8" fill="#A97BFF"/>
       <rect mask="url(#rect-mask)" x="237.49" y="0" width="7.19" height="8" fill="#3178c6"/>
@@ -32,7 +32,7 @@
       <g transform="translate(0, 0)">
         <g class="stagger" style="animation-delay: 450ms">
           <circle cx="5" cy="6" r="5" fill="#7355dd"/>
-          <text x="15" y="10" class="lang-name">C# 42.14%</text>
+          <text x="15" y="10" class="lang-name">C# 42.13%</text>
         </g>
       </g>
       <g transform="translate(0, 25)">
